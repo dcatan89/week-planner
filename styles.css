@@ -32,3 +32,34 @@
   background-color: rgb(149, 188, 242);
   cursor: pointer;
 }
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  width: 50%;
+  background-color: white;
+}
+
+select {
+  text-align: left;
+}
+
+textarea {
+  margin: 1rem;
+}
