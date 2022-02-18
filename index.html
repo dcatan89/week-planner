@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Week Planner</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <div class="container">
     <div class="row">
@@ -22,7 +24,7 @@
     </div>
     <div class="row modal">
       <div class="col-full modal-content">
-        <h1>Add Entry</h1>
+        <h1 class="center-txt">Add Entry</h1>
         <div>
           <select name="dayOfTheWeek">
             <option>Day of Week</option>
@@ -65,6 +67,9 @@
         </div>
         <div>
           <textarea cols="30" rows="10" class="column-full Description" placeholder="Description"></textarea>
+        </div>
+        <div class="col-full right-align">
+          <button type="submit" class="submitButton">Submit</button>
         </div>
       </div>
     </div>
