@@ -67,12 +67,31 @@
 
 tr {
   text-align: left;
-  border: solid 2px black;
+  height: 20px;
 }
 
+ tbody > tr:nth-child(2n +1) {
+  background-color: lightgray;
+ }
+
+ thead > tr {
+   background-color: gray;
+ }
+
+ thead th:last-child {
+  border-left: solid black;
+ }
+
 td {
-  border: solid 2px black;
+  height: 20px;
+  border-right:solid black;
 }
+
+table {
+  border-collapse: collapse;
+  border: solid black;
+}
+
 
 select {
   text-align: left;
