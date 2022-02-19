@@ -16,7 +16,8 @@ var $submitButton = document.querySelector('.submitButton');
 
 function submitHandle(event) {
   event.preventDefault();
-  var day = $entryForm.elements.dayOfTheWeek.value;
+  var day = $entryForm.elements.dayOfTheWeek;
+  console.log(day);
   var time = $entryForm.elements.time.value;
   var description = $entryForm.elements.notes.value;
   var entryValues = {
@@ -24,7 +25,6 @@ function submitHandle(event) {
     time: time,
     description: description
   };
-  console.log(entryValues);
   data.entries.unshift(entryValues);
   $entryForm.reset();
   $entryForm.classList.add('hidden');

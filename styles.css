@@ -21,6 +21,16 @@
   margin-top: 8rem;
 }
 
+.col-7 {
+  width: calc(100% / 7);
+  padding: 10px;
+}
+
+.days {
+  border: solid 1px black;
+  text-align: center;
+}
+
 .add-button {
   font-size: 0.75rem;
   padding: 6px 40px;
@@ -53,6 +63,15 @@
 .modal-content {
   width: 650px;
   background-color: white;
+}
+
+tr {
+  text-align: left;
+  border: solid 2px black;
+}
+
+td {
+  border: solid 2px black;
 }
 
 select {
